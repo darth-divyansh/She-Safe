@@ -1,0 +1,52 @@
+
+body {
+    background-image: url('background-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #005aa7, #fffde4);
+    
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 0px #000; /* Add shadow for depth */
+}
+
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #235a7a; 
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc; 
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #00bcd4; 
+}
+#submitDetails {
+    background-color: #5c73b8; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+#submitDetails:hover {
+    background-color: #00bcd4; 
+}

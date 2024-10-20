@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheSafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+<body>
+    
+    <!-- top banner -->
+
+    <div class="top-banner">
+        <div class="container">
+            <div class="small-bold-text banner-text"></div>
+        </div>
+    </div>
+
+    <!-- nav bar -->
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img class="asset1" src="./assets/asset 1.png" alt="company logo" width="600 px" height="50 px">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link" onclick="scrollToSection('companies-section')">Customers</a></li>
+                    <li><a href="#" class="hover-link" onclick="scrollToSection('features-section')">Features</a></li>
+                    <li><a href="#" class="hover-link" onclick="scrollToSection('big-feature-sectiontop')">How It Works</a></li>
+                    <li><a href="FAQFilter/index.html" class="hover-link">FAQs</a></li>
+                    <li><a href='LoginDB/app/public/index.html' class="hover-link primary-button">Sign up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Direction , Yours</h1>
+                <p>SheSafe revolutionizes transportation safety by allowing users to choose their preferred route, ensuring a safer and more empowering journey.</p>
+                <a href="mapsloc.html" class="primary-button get-started-btn">Free Trial</a>
+            </div>
+            <div class="header-right">
+                <img class="imgcss" src="./assets/asset 2.jpg" alt="hero image" >
+            </div>
+        </div>
+    </header>
+
+    <!-- companies section -->
+
+    <section class="companies-section">
+        <div class="container">
+            <div class="small-bold-text companies-header">The world’s best companies rely on SheSafe to make safer decisions.</div>
+            <div class="logos flex">
+                <img class="logo" src="./assets/asset 3.png" alt="">
+                <img class="logo" src="./assets/asset 4.png" alt="">
+                <img class="logo" src="./assets/asset 5.png" alt="">
+                <img class="logo" src="./assets/asset 6.png" alt="">
+                <img class="logo" src="./assets/asset 7.png" alt="">
+                <img class="logo" src="./assets/asset 8.png" alt="">
+                <img class="logo" src="./assets/asset 9.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- features section -->
+
+    <section class="features-section">
+        <div class="container">
+            <div class="features-header">
+                <h2 class="features-heading-text">Ensuring Safer Rides</h2>
+                
+            </div>
+            <div class="features-area flex">
+                <div class="features-card flex">
+                    <img src="./assets/asset 11.svg" alt="">
+                    <h3>Crime Rate Analysis</h3>
+                    <p>Evaluate areas based on crime statistics.</p>
+                
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/asset 13.svg" alt="">
+                    <h3>Customizable Routes</h3>
+                    <p>Allow users to select preferred paths.</p>
+              
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/asset 14.png" alt="">
+                    <h3>Real-Time Updates</h3>
+                    <p>Provide current information for route selection</p>
+                 
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/asset 15.png" alt="">
+                    <h3>Risk Assessment</h3>
+                    <p>Analyze potential dangers along chosen routes.</p>
+                  
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/asset 16.svg" alt="">
+                    <h3>Emergency Service Accessibility </h3>
+                    <p>Consider proximity to hospitals, police, and fire stations.</p>
+                    
+                </div>
+                <div class="features-card flex">
+                    <img src="./assets/asset 17.png" alt="">
+                    <h3>Safety Recommendations</h3>
+                    <p>Offer suggestions for safer travel options.</p>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- big features section -->
+    <section class="features-section">
+    <div class="features-header">
+        <h2 class="features-heading-text">How It Works</h2>
+    </section>
+    </div>
+    <section class="big-feature-section">
+        <div class="container flex big-feature-containertop">
+            
+            <div class="feature-img">
+                <img src="./assets/asset 18.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h2>SignUp</h2>
+                <p>SignUp: Before accessing SheSafe's features and personalized services, users are required to create an account, 
+                providing necessary information for authentication and customization.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container" id="second-big-feature">
+            <div class="feature-img">
+                <img src="./assets/asset 21.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h2>Uses Google Maps API</h2>
+                <p>SheSafe harnesses the power of Google Maps API, tapping into its vast repository of location data and advanced mapping capabilities to offer accurate and reliable route optimization, 
+                    ensuring users can navigate safely and efficiently..</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-containerbot">
+            <div class="feature-img">
+                <img class="imgcss" src="./assets/asset 24.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h2>Route Selection</h2>
+                <p>Users choose routes based on safety recommendations and customizable preferences, prioritizing safety and personal preferences for an enhanced travel experience..</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container flex footer-container">
+            <p>
+                <a href="#" class="company-logo">
+                    <img src="./assets/asset 1.png" alt="company logo">
+                </a> 
+                was born from the visionary idea of Divyansh Bansal, continually evolving to meet the needs of our users. We're driven by a commitment to safety and empowerment, revolutionizing transportation with each update. 
+                With cutting-edge technology and community feedback, we're reshaping the future of safe travel, one ride at a time.
+                Join us on our journey towards a safer, more empowered world.
+            </p>
+        </div>
+    </footer>
+
+    <!-- subfooter -->
+
+    <div class="subfooter">
+        <div class="container flex subfooter-container">
+            <a class="hover-link" href="#">Privacy policy</a>
+            <a class="hover-link" href="#">Terms & Condition</a>
+            <a class="hover-link" href="#">Security Information</a>
+            <a class="hover-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="hover-link" href="#"><i class="fa-brands fa-x"></i></a>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+
+    <script>
+
+
+    function scrollToSection(className) {
+    const section = document.querySelector('.' + className);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+// Function to check if an element is in the viewport
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Function to handle animations when elements come into view
+function handleAnimation(element, animation) {
+    if (isInViewport(element)) {
+        element.classList.add(animation);
+    }
+}
+
+// Initialize Intersection Observer
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Trigger animation for features-section
+            handleAnimation(entry.target, 'slideInFromLeft');
+        }
+    });
+}, { threshold: 0.5 }); // Adjust threshold as needed
+
+// Get the elements to observe
+const featuresSection = document.querySelector('.features-section');
+
+// Start observing the elements
+observer.observe(featuresSection);
+
+    </script>
+
+</body>
+</html>

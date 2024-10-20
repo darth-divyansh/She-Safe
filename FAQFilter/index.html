@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html lang="en" ng-app="faqApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="FaqController as faqCtrl">
+  <div class="container">
+    <h1 class="title">FAQ Search</h1>
+    <input type="text" class="search-bar" ng-model="faqCtrl.searchText" placeholder="Search FAQs">
+    
+    <ul class="faq-list">
+      <li ng-repeat="faq in faqCtrl.faqs | filter: faqCtrl.searchText" class="faq-item">
+        <h3>{{ faq.question }}</h3>
+        <p>{{ faq.answer }}</p>
+      </li>
+    </ul>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
